@@ -1,0 +1,11 @@
+/target/
+/src/main/resources/application.properties
+/upload-dir/
+/log/
+/.vs/*
+/packages/
+/ConsoleApp1/bin/
+/ConsoleApp1/obj/
+/ConsoleApp1/App.config
+
+
