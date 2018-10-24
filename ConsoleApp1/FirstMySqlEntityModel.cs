@@ -38,9 +38,12 @@ namespace ConsoleApp1
         public int Id { get => id; set => id = value; }
 
         public string Description { get; set; }
+
+        public float Price { get; set; }
+
     }
 
 
 
-    
+
 }

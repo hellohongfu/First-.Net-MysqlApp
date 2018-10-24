@@ -13,8 +13,8 @@ namespace ConsoleApp1
 
             FirstMySqlEntityModel context = new FirstMySqlEntityModel();
 
-            Video entity = new Video() {  Id=1, Name="家有儿女", Url="www.0run.com"};
-            Video entity2 = new Video() { Id = 2, Name = "家有儿女2", Url = "www.0run.com" };
+            Video entity = new Video() {  Id=1, Name="家有儿女", Url= "www.0run.com",Price = 122 };
+            Video entity2 = new Video() { Id = 2, Name = "家有儿女2", Url = "www.0run.com", Price = 122 };
             context.Videos.Add( entity);
             context.Videos.Add(entity2);
             context.SaveChanges();
